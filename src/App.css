@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  justify-content:center ;
+  padding: 0%;
+  margin: 0;
+}
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.animate-morph {
+  animation: morph 5s ease-in-out infinite;
+}
+
+li {
+  position: relative;
+  list-style: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px); /* Ajusta la intensidad del desenfoque según necesites */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.9s ease; /* Ajusta la duración de la transición aquí */
+  opacity: 0;
+}
+
+li:hover .overlay {
+  display: flex;
+  opacity: 1;
+}
+
+.overlay p {
+  color: black; /* Cambia el color del texto según lo necesites */
+}
