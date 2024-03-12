@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MauriJara312.github.io/static/css/main.43ca2cf0.css",
+    "main.js": "/MauriJara312.github.io/static/js/main.8387835b.js",
+    "static/js/453.acca0757.chunk.js": "/MauriJara312.github.io/static/js/453.acca0757.chunk.js",
+    "static/media/profile.png": "/MauriJara312.github.io/static/media/profile.511da58623ec5d38f54b.png",
+    "static/media/findMeaHome.png": "/MauriJara312.github.io/static/media/findMeaHome.d71af7c04df7124fb71a.png",
+    "static/media/cv.pdf": "/MauriJara312.github.io/static/media/cv.1b969f3a77b84c5bd27d.pdf",
+    "static/media/aboutBg.jpg": "/MauriJara312.github.io/static/media/aboutBg.5fb9a1091e036283f72a.jpg",
+    "index.html": "/MauriJara312.github.io/index.html",
+    "main.43ca2cf0.css.map": "/MauriJara312.github.io/static/css/main.43ca2cf0.css.map",
+    "main.8387835b.js.map": "/MauriJara312.github.io/static/js/main.8387835b.js.map",
+    "453.acca0757.chunk.js.map": "/MauriJara312.github.io/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.43ca2cf0.css",
+    "static/js/main.8387835b.js"
+  ]
+}
