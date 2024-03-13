@@ -1,9 +1,10 @@
 import React from 'react'
 import fmh from '../assets/findMeaHome.png'
+import oldPortfolio from '../assets/oldPortfolio.png'
 
 export default function Projects() {
   return (
-    <div id="Projects" className='flex flex-wrap justify-center font-semibold max-xl:py-40  max-xl:-m-0'>
+    <div id="Projects" className='flex flex-wrap justify-center font-semibold max-xl:py-40 gap-5  max-xl:-m-0'>
 
 
         <h1 className='w-screen text-center my-16 text-4xl'>Projects</h1>
@@ -49,6 +50,52 @@ export default function Projects() {
                     </a>
 
                 <a className='hover:shadow-md p-4 rounded-3xl' target="_blank" href="https://github.com/Carolinambb/proyecto-final--Find-Me-A-Home">
+                        Code
+                    </a>
+
+                </div>
+
+
+
+            </div>
+            
+        </div>
+
+
+        <div className='flex w-8/12 text-lg max-md:text-base border rounded-2xl max-xl:flex-col shadow-md'>
+            
+       
+            <div className='m-8'>
+
+                <h1 className='text-center m-4'>Old Portfolio</h1>
+
+                <img className='rounded-2xl max-h-96 shadow-lg' src={oldPortfolio} alt="fmh" />
+
+            </div>
+            
+            <div className='text-center max-lg:text-left m-8'>
+
+                <p className='m-8 mt-16 max-xl:mt-0'>
+
+                    Application that showcases my skills, education and experience focused on displaying animations and great reactivity. 
+                
+                </p>
+
+                <div className='flex flex-wrap justify-center m-8'>
+
+                    <img src="https://skillicons.dev/icons?i=js,react,css,html&theme=light" alt="tech" />
+                    
+                    <img src="https://skillicons.dev/icons?i=tailwind,mui,git&theme=light" className='ml-2 max-xl:m-4'  alt="tech" />
+                
+                </div>
+
+                <div className='flex justify-evenly m-'>
+
+                <a className='hover:shadow-md p-4 rounded-3xl' target="_blank" href="https://maurijara312.github.io/portfolio/">
+                        Deploy
+                    </a>
+
+                <a className='hover:shadow-md p-4 rounded-3xl' target="_blank" href="https://github.com/MauriJara312/portfolio">
                         Code
                     </a>
 
